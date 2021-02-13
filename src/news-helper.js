@@ -1,2 +1,2 @@
-export const findArticle = (news=[] , articleId) =>
+export const FindArticle = (news=[] , articleId) =>
 news.find(article => article.id === articleId)

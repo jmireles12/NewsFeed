@@ -5,7 +5,7 @@ import ApiContext from '../ApiContext'
 import 'react-tabs/style/react-tabs.css';
 import './Tabs.css'
 
-export default class Tab2 extends Component {
+export default class Tabs extends Component {
 
     constructor(props) {
         super(props);

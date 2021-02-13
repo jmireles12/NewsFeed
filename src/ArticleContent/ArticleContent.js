@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import ApiContext from '../ApiContext'
-import Article from '../Articles/Articles'
-import { findArticle } from '../news-helper'
+import Articles from '../Articles/Articles'
+import { FindArticle } from '../news-helper'
 import './ArticleContent.css'
 
 export default class ArticleContent extends Component {
@@ -16,11 +16,11 @@ export default class ArticleContent extends Component {
     render() {
         const { news=[] } = this.context
         const { articleId } = this.props.match.params
-        const article = findArticle(news, articleId) || { body: '' }
+        const article = FindArticle(news, articleId) || { body: '' }
         console.log(this.props.id)
         return (
             <section className='ArticleContent'>
-                <Article
+                <Articles
                     id={article.id}
                     name={article.name}
                 />

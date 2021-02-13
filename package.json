@@ -8,6 +8,8 @@
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.3",
     "@testing-library/user-event": "^12.6.2",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.6",
     "guardian-js": "^3.0.0",
     "mdbreact": "^5.0.1",
     "prop-types": "^15.7.2",

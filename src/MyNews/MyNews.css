@@ -1,0 +1,12 @@
+.headlines {
+    text-align: center;
+}
+
+.headline-list {
+    list-style-type: none;
+    padding: 0
+}
+
+.headline__li:nth-child(even) {
+    background: #e9ecef;
+}

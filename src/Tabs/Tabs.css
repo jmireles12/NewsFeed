@@ -1,0 +1,18 @@
+.Filter {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.dropdown {
+    align-items: center;
+    width: 150px;
+    border-radius: 5px;
+    border-color: #004e98;
+}
+
+.edit__button {
+    height: 25px;
+    border-radius: 5px;
+    border-width: thin;
+}

@@ -2,7 +2,6 @@
   "name": "NewsFeed",
   "version": "0.1.0",
   "private": true,
-  "proxy": "https://content.guardianapis.com/",
   "dependencies": {
     "@material-ui/core": "^4.11.3",
     "@szhsin/react-menu": "^1.5.0",

@@ -9,13 +9,13 @@ Welcome to NewsFeed where you can add Tabs and display news containing the name 
 ## ScreenShots
 
 Welcome:
-
+![welcome screen](src/Images/welcome.png)
 
 My News:
-
+![my news](src/Images/news.png)
 
 Edit Tabs:
-
+![edit tabs](src/Images/create_tab.png)
 
 ## Build with
 * React

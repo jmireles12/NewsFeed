@@ -19,6 +19,9 @@ Edit Tabs:
 
 ## Build with
 * React
+* Redux
 * JavaScript
+* JSX
+* Git
 * CSS
 * HTML

@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import ApiContext from '../ApiContext'
 import config from '../config'
+import './TabName.css'
 
 
 export default class TabName extends Component {
@@ -38,11 +39,10 @@ export default class TabName extends Component {
     }
 
     render() {
-        /* const { tabs=[] } = this.context */
         const { name, id } = this.props
         return (
             <section className='TabName'>
-                <h4>{name}</h4>
+                <h4 className='tab-name'>{name}</h4>
                 <button
                     className='TabName__delete'
                     type='button'

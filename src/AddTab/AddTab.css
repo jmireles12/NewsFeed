@@ -1,0 +1,16 @@
+.AddTab {
+    text-align: center;
+}
+
+.EditTabs__ul {
+    display: inline;
+    list-style: none;
+}
+
+.EditTabs__li:nth-child(odd) {
+    background: #e9ecef;
+}
+
+.Back-button {
+    margin: 20px;
+}

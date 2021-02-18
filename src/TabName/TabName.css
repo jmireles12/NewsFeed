@@ -1,0 +1,17 @@
+.TabName {
+    display: inline-flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.tab-name {
+    margin: 0;
+    padding-right: 10px;
+}
+
+.TabName__delete {
+    height: fit-content;
+    border-radius: 5px;
+    border-width: thin;
+}

@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
-import ApiContext from '../ApiContext';
-import TabName from '../TabName/TabName';
+import React, { Component } from 'react'
+import ApiContext from '../ApiContext'
+import TabName from '../TabName/TabName'
 
 export default class EditTabs extends Component {
     

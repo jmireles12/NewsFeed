@@ -1,9 +1,9 @@
 import React from 'react'
-import { Component } from 'react';
-import ApiContext from '../ApiContext';
+import { Component } from 'react'
+import ApiContext from '../ApiContext'
 import config from '../config'
-import TabForm from '../TabForm/TabForm';
-import TabName from '../TabName/TabName';
+import TabForm from '../TabForm/TabForm'
+import TabName from '../TabName/TabName'
 import './AddTab.css'
 
 export default class AddTab extends Component {

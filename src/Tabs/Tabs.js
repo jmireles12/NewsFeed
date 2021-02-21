@@ -1,8 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
-/* import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'; */
 import ApiContext from '../ApiContext'
-import 'react-tabs/style/react-tabs.css';
+import 'react-tabs/style/react-tabs.css'
 import './Tabs.css'
 
 export default class Tabs extends Component {

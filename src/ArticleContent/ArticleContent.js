@@ -24,11 +24,11 @@ export default class ArticleContent extends Component {
                     id={article.id}
                     name={article.name}
                 />
-                <div className='ArticleContent__content'>
+                <section className='ArticleContent__content'>
                     {article.body.split(/\n \r|\n/).map((para, i) =>
                         <p key={i}>{para}</p>
                     )}
-                </div>
+                </section>
             </section>
         )
     }

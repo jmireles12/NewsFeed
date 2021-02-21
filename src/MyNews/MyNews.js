@@ -18,7 +18,7 @@ export default class MyNews extends Component {
     render() {
         const { news=[] } = this.context
         return (
-            <div>
+            <section>
                 <Tabs />
                 <ul className='headline-list'>
                     {news.map(article =>
@@ -33,7 +33,7 @@ export default class MyNews extends Component {
                             />
                         </li>)}
                 </ul>
-            </div>
+            </section>
         )
     }
 }

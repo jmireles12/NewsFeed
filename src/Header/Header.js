@@ -5,16 +5,16 @@ import './Header.css'
 export default class Header extends Component {
     render() {
         return (
-            <div className='header'>
+            <nav className='header'>
                 <h1 className='title'>
                     <Link className='NewsFeed' to='/'>NewsFeed</Link>
                 </h1>
-                <div className='Nav'>
+                <section className='Nav'>
                     <Link to='/'>Home</Link>
                     {/* <Link to='/news'>News</Link> */}
                     <Link to='/mynews'>My News</Link>
-                </div>
-            </div>
+                </section>
+            </nav>
         )
     }
 }

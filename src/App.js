@@ -100,10 +100,10 @@ class App extends Component {
     }
     return (
       <ApiContext.Provider value={value}>
-        <div className="App">
+        <main className="App">
           <Header />
           {this.renderNavRoute()}
-        </div>  
+        </main>  
       </ApiContext.Provider>
     );
   }

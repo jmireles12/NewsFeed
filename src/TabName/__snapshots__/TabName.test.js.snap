@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TabName component renders the complete TabName 1`] = `
+<section
+  className="TabName"
+>
+  <h4
+    className="tab-name"
+  />
+  <button
+    className="TabName__delete"
+    onClick={[Function]}
+    type="button"
+  >
+    x
+  </button>
+</section>
+`;

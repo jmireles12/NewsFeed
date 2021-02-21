@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Articles component renders the complete Articles 1`] = `
+<section
+  className="Article"
+>
+  <img
+    alt="provided by Guardian.com"
+    className="photo"
+  />
+  <h2
+    className="title"
+  >
+    <Link
+      target="_blank"
+      to={
+        Object {
+          "pathname": undefined,
+        }
+      }
+    />
+  </h2>
+</section>
+`;

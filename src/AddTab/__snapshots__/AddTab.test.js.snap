@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddTab component renders the complete addtab 1`] = `
+<section
+  className="AddTab"
+>
+  <h2
+    className="AddTab__title"
+  >
+    Create New Tab
+  </h2>
+  <TabForm
+    onSubmit={[Function]}
+  >
+    <section
+      className="field"
+    >
+      <label
+        htmlFor="tab-name-input"
+      >
+        Name
+      </label>
+      <input
+        id="tab-name-input"
+        name="tab-name"
+        onChange={[Function]}
+        type="text"
+      />
+      <section>
+        <p />
+      </section>
+    </section>
+    <section
+      className="button"
+    >
+      <button
+        type="submit"
+      >
+        Create Tab
+      </button>
+    </section>
+  </TabForm>
+  <ul
+    className="EditTabs__ul"
+  />
+  <button
+    className="Back-button"
+    onClick={[Function]}
+  >
+    Back
+  </button>
+</section>
+`;

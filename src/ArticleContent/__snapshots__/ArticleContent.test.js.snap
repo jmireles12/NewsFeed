@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArticleContent component renders the complete ArticleContent 1`] = `
+<section
+  className="ArticleContent"
+>
+  <Articles
+    match={
+      Object {
+        "params": Object {},
+      }
+    }
+  />
+  <div
+    className="ArticleContent__content"
+  >
+    <p
+      key="0"
+    />
+  </div>
+</section>
+`;

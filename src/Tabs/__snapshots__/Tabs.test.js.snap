@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tabs component renders the complete Tabs 1`] = `
+<section
+  className="Filter"
+>
+  <select
+    className="dropdown"
+    name="filter-list"
+    onChange={[Function]}
+    value="1"
+  >
+    <option
+      disabled={true}
+      value="1"
+    >
+      ...
+    </option>
+  </select>
+  <Link
+    to="/add-tab"
+  >
+    <button
+      className="edit__button"
+    >
+      Edit
+    </button>
+  </Link>
+</section>
+`;

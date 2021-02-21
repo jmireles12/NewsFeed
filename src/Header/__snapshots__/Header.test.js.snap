@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header component renders the complete Header 1`] = `
+<div
+  className="header"
+>
+  <h1
+    className="title"
+  >
+    <Link
+      className="NewsFeed"
+      to="/"
+    >
+      NewsFeed
+    </Link>
+  </h1>
+  <div
+    className="Nav"
+  >
+    <Link
+      to="/"
+    >
+      Home
+    </Link>
+    <Link
+      to="/mynews"
+    >
+      My News
+    </Link>
+  </div>
+</div>
+`;

@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`News component renders the complete News 1`] = `
+<section
+  className="headlines"
+>
+  <ul
+    className="headline-list"
+  />
+</section>
+`;

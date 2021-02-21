@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MyNews component renders the complete MyNews 1`] = `
+<div>
+  <Tabs
+    match={
+      Object {
+        "params": Object {},
+      }
+    }
+  />
+  <ul
+    className="headline-list"
+  />
+</div>
+`;

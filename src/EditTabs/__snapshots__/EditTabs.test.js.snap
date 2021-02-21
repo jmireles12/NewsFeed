@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EditTabs component renders the complete EditTabs 1`] = `
+<section
+  className="EditTabs"
+>
+  <ul
+    className="EditTabs__ul"
+  />
+</section>
+`;

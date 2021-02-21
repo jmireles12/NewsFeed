@@ -10,6 +10,7 @@
     "@testing-library/user-event": "^12.6.2",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.6",
+    "enzyme-to-json": "^3.6.1",
     "guardian-js": "^3.0.0",
     "mdbreact": "^5.0.1",
     "prop-types": "^15.7.2",

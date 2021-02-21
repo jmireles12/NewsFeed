@@ -43,7 +43,7 @@ export default class Tabs extends Component {
                 </select>
                 <Link to='/add-tab'>
                     <button className='edit__button'>
-                        Edit
+                        Edit/Add
                     </button>    
                 </Link>
             </section>

@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`MyNews component renders the complete MyNews 1`] = `
-<div>
+<section>
   <Tabs
     match={
       Object {
@@ -12,5 +12,5 @@ exports[`MyNews component renders the complete MyNews 1`] = `
   <ul
     className="headline-list"
   />
-</div>
+</section>
 `;

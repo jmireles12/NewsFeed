@@ -11,12 +11,12 @@ exports[`ArticleContent component renders the complete ArticleContent 1`] = `
       }
     }
   />
-  <div
+  <section
     className="ArticleContent__content"
   >
     <p
       key="0"
     />
-  </div>
+  </section>
 </section>
 `;

@@ -23,7 +23,7 @@ exports[`Tabs component renders the complete Tabs 1`] = `
     <button
       className="edit__button"
     >
-      Edit
+      Edit/Add
     </button>
   </Link>
 </section>
